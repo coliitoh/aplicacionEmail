@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tpmenu.aplicacionemail.MensajeActivity">
+
+    <TextView
+        android:id="@+id/txtAsunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        android:textSize="12sp"
+        android:layout_below="@+id/txtEmailMensaje"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtRemitente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentTop="true"
+        android:textSize="12sp"
+        android:layout_toRightOf="@+id/txtEmailMensaje"
+        android:layout_toEndOf="@+id/txtEmailMensaje" />
+
+    <TextView
+        android:id="@+id/txtEmailMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="12sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/txtAsunto"
+        android:layout_alignStart="@+id/txtAsunto" />
+
+
+
+    <TextView
+        android:id="@+id/txtMensaje"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:layout_below="@+id/txtAsunto"
+        android:layout_alignLeft="@+id/txtAsunto"
+        android:layout_alignStart="@+id/txtAsunto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
